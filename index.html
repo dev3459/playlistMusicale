@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Musicale</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="createPlaylistAndClip">
+            <div id="contentInputPlaylist">
+                <label for="inputPlaylist">Créer une playlist</label><br>
+                <input type="text" name="inputPlaylist" id="inputPlaylist"><br>
+                <button id="btnCreatePlaylist">Créer</button>
+            </div>
+            <div id="contentInputClip">
+                <label for="inputClip">Créer un clip</label><br>
+                <input type="text" name="inputClip" id="inputClip"><br>
+                <button id="btnCreateClip">Créer</button>
+            </div>
+            <div id="contentDeletePlaylist">
+                <label for="deleteInputPlaylist">Supprier un Playlist</label><br>
+                <input type="text" name="deleteInputPlaylist" id="deleteInputPlaylist"><br>
+                <button id="btnDeletePlaylist">Supprimer</button>
+            </div>
+            <div id="contentDeleteClip">
+                <label for="deleteInputClip">Supprier un clip</label><br>
+                <input type="text" name="deleteInputClip" id="deleteInputClip"><br>
+                <button id="btnDeleteClip">Supprimer</button>
+            </div>
+        </div>
+        <div id="playlistContainer">
+            <div id="contentClip"></div>
+        </div>
+    </div>
+
+    <script src="./js/createEl.js" type="module"></script>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>

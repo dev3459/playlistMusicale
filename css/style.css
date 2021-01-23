@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html{
+    font-size: 62.5%;
+}
+    
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#createPlaylistAndClip{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#contentInputPlaylist, #contentInputClip , #contentDeletePlaylist, #contentDeleteClip{
+    margin: 1rem;
+    border: 1px solid blue;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+label{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+input{
+    outline: none;
+    border: 2px skyblue solid;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+button{
+    text-transform: uppercase;
+    background-color: snow;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#playlistContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contentClip{
+    width: 200px;
+    height: 250px;
+    border: 1px solid blue;
+    margin: 0.3rem;
+}
+
+.hide{
+    display: none;
+}
